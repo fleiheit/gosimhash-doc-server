@@ -47,7 +47,7 @@ func (op *SimhashOperator) Check() bool {
 
 func (op *SimhashOperator) Cut(simhash uint64) []uint64 {
 	var ret = make([]uint64, op.partNumber)
-	var move = uint(gosimhash.BITS_LENGTH / op.partNumber)
+	var move = uint(gosimhash.BitsLength / op.partNumber)
 	for i := 0; i < op.partNumber; i++ {
 		ret[i] = op.mask & simhash
 		simhash >>= move
