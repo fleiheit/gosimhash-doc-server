@@ -1,6 +1,6 @@
 # GoSimhash Doc Server for Chinese Documents
 
-[![Build Status](https://travis-ci.org/HaoyuHu/gosimhash-doc-server.svg?branch=master)](https://travis-ci.org/HaoyuHu/gosimhash-doc-server) 
+[![Build Status](https://travis-ci.org/fleiheit/gosimhash-doc-server.svg?branch=master)](https://travis-ci.org/fleiheit/gosimhash-doc-server) 
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg?style=flat)](http://mit-license.huhaoyu.com)
 
 ## Introduction
@@ -10,7 +10,7 @@
 ## Build
 ```
 // fetch gosimhash-doc-server
-go get github.com/HaoyuHu/gosimhash-doc-server
+go get github.com/fleiheit/gosimhash-doc-server
 // build it in the root directory of gosimhash-doc-server project
 go build
 ```

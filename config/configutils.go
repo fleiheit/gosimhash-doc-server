@@ -1,6 +1,6 @@
 package config
 
-import "github.com/HaoyuHu/gosimhash-doc-server/common"
+import "github.com/fleiheit/gosimhash-doc-server/common"
 
 const RedisConfigPath = "config/redis.json"
 const CommonConfigPath = "config/common.json"

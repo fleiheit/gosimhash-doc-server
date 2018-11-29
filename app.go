@@ -5,9 +5,9 @@ import (
 	"strings"
 	"net/http"
 	"github.com/julienschmidt/httprouter"
-	"github.com/HaoyuHu/gosimhash-doc-server/handler"
-	"github.com/HaoyuHu/gosimhash-doc-server/config"
-	"github.com/HaoyuHu/gosimhash-doc-server/common"
+	"github.com/fleiheit/gosimhash-doc-server/handler"
+	"github.com/fleiheit/gosimhash-doc-server/config"
+	"github.com/fleiheit/gosimhash-doc-server/common"
 	"os"
 )
 

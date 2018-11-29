@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"net/http"
 	"github.com/julienschmidt/httprouter"
-	"github.com/HaoyuHu/gosimhash-doc-server/common"
+	"github.com/fleiheit/gosimhash-doc-server/common"
 	"log"
 )
 

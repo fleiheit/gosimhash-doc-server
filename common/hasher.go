@@ -1,8 +1,8 @@
 package common
 
 import (
-	"github.com/HaoyuHu/gosimhash"
-	"github.com/HaoyuHu/gosimhash/utils"
+	"github.com/fleiheit/gosimhash"
+	"github.com/fleiheit/gosimhash/utils"
 )
 
 type HashType uint8

@@ -1,8 +1,8 @@
 package common
 
 import (
-	"github.com/HaoyuHu/gosimhash"
-	"github.com/HaoyuHu/gosimhash-doc-server/model"
+	"github.com/fleiheit/gosimhash"
+	"github.com/fleiheit/gosimhash-doc-server/model"
 )
 
 type SimhashLimit int
