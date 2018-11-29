@@ -18,7 +18,7 @@ func InitializeSimhasher(hashType HashType, dict string, hmm string, userDict st
 	var inner utils.Hasher
 	switch hashType {
 	case SipHash:
-		inner = utils.NewSipHasher([]byte(gosimhash.DEFAULT_HASH_KEY))
+		inner = utils.NewSipHasher([]byte(gosimhash.DefaultHashKey))
 		break
 	case JenkinsHash:
 		inner = utils.NewJenkinsHasher()
